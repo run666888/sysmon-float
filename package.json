@@ -1,0 +1,19 @@
+{
+  "name": "sysmon-float",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Windows 系统状态悬浮窗：CPU、网络、GPU、内存与运行时间",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@hicccc77/electron-liquid-glass": "^0.4.0",
+    "systeminformation": "^5.23.5"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0"
+  }
+}
